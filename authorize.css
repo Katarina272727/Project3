@@ -1,0 +1,74 @@
+.container{
+    width: 60vh;
+    padding: 16px;
+    color: #e012cb;
+    height: 100%;
+    bottom: 0;
+    right: 15px;
+    border-radius: 120px;
+    border: 3px solid #d4d4d4;
+    z-index: 9;
+}
+
+.container p {
+    font-size: 150%;
+}
+
+.container h1 {
+
+    font-size: 60px;
+}
+
+body { 
+    background: url(./nyan-cat.png) repeat 0 0;
+    
+}
+
+form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+input[type=text], input[type=password] {
+    color: #e012cb;
+    width: 87%;
+    padding: 30px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-style: solid;
+    background: white;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: white;
+    outline: none;
+}
+
+h1 {
+    color: #e012cb;
+    text-align: center;
+    font-size: 100px;
+}
+
+span{
+    color: #e012cb;
+}
+
+.signinbtn {
+    font-size: 100%;
+    background-color: #e012cb;
+    color: white;
+    padding: 16px 30px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 82%;
+    opacity: 0.9;
+    border-radius: 15px;
+    margin-left: 40px;
+}
+
+.signinbtn:hover {
+    opacity:1;
+}
